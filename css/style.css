@@ -11,5 +11,37 @@
     height: 60vh;
 }
 body{
+    height: 100vh;
     background-image: linear-gradient(rgb(220, 184, 184),rgb(204, 134, 204));
+}
+.message{
+
+background-color: rgb(107, 220, 154);
+width: 24%;
+padding: 10px;
+margin: 17px 12px;
+border: 2px solid black ;
+border-radius: 20px;
+}
+.left{
+    float: left;
+    clear: both;
+}
+.right{
+    float: right;
+    clear: both;
+}
+#send-container{
+    display: block;
+    margin: auto;
+    text-align: center;
+    max-width: 985px;
+    width: 100%;
+}
+
+#messageInp{
+    width: 90%;
+    border: 2px solid black;
+    border-radius: 6px;
+    height: 34px;
 }
